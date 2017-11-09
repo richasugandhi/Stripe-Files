@@ -1,0 +1,64 @@
+function stripIncludeFiles()
+ {
+    include APPPATH . 'third_party/Stripe/lib/Stripe.php';
+    // Utilities
+    include APPPATH . 'third_party/Stripe/lib/Util/AutoPagingIterator.php';
+    include APPPATH . 'third_party/Stripe/lib/Util/RequestOptions.php';
+    include APPPATH . 'third_party/Stripe/lib/Util/Set.php';
+    include APPPATH . 'third_party/Stripe/lib/Util/Util.php';
+    // HttpClient
+    include APPPATH . 'third_party/Stripe/lib/HttpClient/ClientInterface.php';
+    include APPPATH . 'third_party/Stripe/lib/HttpClient/CurlClient.php';
+    // Errors
+    include APPPATH . 'third_party/Stripe/lib/Error/Base.php';
+    include APPPATH . 'third_party/Stripe/lib/Error/Api.php';
+    include APPPATH . 'third_party/Stripe/lib/Error/ApiConnection.php';
+    include APPPATH . 'third_party/Stripe/lib/Error/Authentication.php';
+    include APPPATH . 'third_party/Stripe/lib/Error/Card.php';
+    include APPPATH . 'third_party/Stripe/lib/Error/InvalidRequest.php';
+    include APPPATH . 'third_party/Stripe/lib/Error/RateLimit.php';
+    // Plumbing
+    include APPPATH . 'third_party/Stripe/lib/ApiResponse.php';
+    include APPPATH . 'third_party/Stripe/lib/JsonSerializable.php';
+    include APPPATH . 'third_party/Stripe/lib/StripeObject.php';
+    include APPPATH . 'third_party/Stripe/lib/ApiRequestor.php';
+    include APPPATH . 'third_party/Stripe/lib/ApiResource.php';
+    include APPPATH . 'third_party/Stripe/lib/SingletonApiResource.php';
+    include APPPATH . 'third_party/Stripe/lib/AttachedObject.php';
+    include APPPATH . 'third_party/Stripe/lib/ExternalAccount.php';
+    // Stripe API Resources
+    include APPPATH . 'third_party/Stripe/lib/Account.php';
+    include APPPATH . 'third_party/Stripe/lib/AlipayAccount.php';
+    include APPPATH . 'third_party/Stripe/lib/ApplicationFee.php';
+    include APPPATH . 'third_party/Stripe/lib/ApplicationFeeRefund.php';
+    include APPPATH . 'third_party/Stripe/lib/Balance.php';
+    include APPPATH . 'third_party/Stripe/lib/BalanceTransaction.php';
+    include APPPATH . 'third_party/Stripe/lib/BankAccount.php';
+    include APPPATH . 'third_party/Stripe/lib/BitcoinReceiver.php';
+    include APPPATH . 'third_party/Stripe/lib/BitcoinTransaction.php';
+    include APPPATH . 'third_party/Stripe/lib/Card.php';
+    include APPPATH . 'third_party/Stripe/lib/Charge.php';
+    include APPPATH . 'third_party/Stripe/lib/Collection.php';
+    include APPPATH . 'third_party/Stripe/lib/CountrySpec.php';
+    include APPPATH . 'third_party/Stripe/lib/Coupon.php';
+    include APPPATH . 'third_party/Stripe/lib/Customer.php';
+    include APPPATH . 'third_party/Stripe/lib/Dispute.php';
+    include APPPATH . 'third_party/Stripe/lib/Event.php';
+    include APPPATH . 'third_party/Stripe/lib/FileUpload.php';
+    include APPPATH . 'third_party/Stripe/lib/Invoice.php';
+    include APPPATH . 'third_party/Stripe/lib/InvoiceItem.php';
+    include APPPATH . 'third_party/Stripe/lib/Order.php';
+    include APPPATH . 'third_party/Stripe/lib/OrderReturn.php';
+    include APPPATH . 'third_party/Stripe/lib/Plan.php';
+    include APPPATH . 'third_party/Stripe/lib/Product.php';
+    include APPPATH . 'third_party/Stripe/lib/Recipient.php';
+    include APPPATH . 'third_party/Stripe/lib/Refund.php';
+    include APPPATH . 'third_party/Stripe/lib/SKU.php';
+    include APPPATH . 'third_party/Stripe/lib/Subscription.php';
+    include APPPATH . 'third_party/Stripe/lib/ThreeDSecure.php';
+    include APPPATH . 'third_party/Stripe/lib/Token.php';
+    include APPPATH . 'third_party/Stripe/lib/Transfer.php';
+    include APPPATH . 'third_party/Stripe/lib/TransferReversal.php';
+
+    //\Stripe\Stripe::setApiKey(''); 
+ }
